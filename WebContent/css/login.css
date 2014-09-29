@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+*{ 
+	margin:0; 
+	padding:0;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+	position: relative;
+	text-align: center;
+}
+#center
+{
+	margin-left:20% auto;
+	margin-top:20%; 
+	
+}
+#m-center
+{
+	width:60%;
+	height:80%;
+	margin:1% auto;
+	background:#c0c0c0;
+}
+
+#m-left
+{
+	width:30%;
+	height:100%;
+	background:#22FF00;
+	float:left;
+}
+
+#m-right
+{
+	width:70%;
+	height:100%;
+	float:right;
+	background:#ff0080;
+}
+#m_textarea
+{
+	width:100%;/*自动适应父布局宽度*/ 
+	height:100%; 
+ 	overflow:auto;  
+ 	word-break:break-all;
+}
+
+#m-bottom
+{
+	width:60%;
+	height:8%;
+	margin:1% auto;
+	background:#00FFFF;
+}
+
+#m_name
+{
+	width:88%;
+	height:100%;
+	line-height:100%;
+}
+#m_send
+{
+	width:10%;
+	height:100%;
+	line-height:100%;
+}
+
+<!-- 树形目录的控制格式 -->
+#d1{
+	width:200;
+	height:400;
+	background-color:#cccccc;
+	border:2px solid black;
+	left:30;
+	top:30;
+	position:absolute;
+}
+#d1_head{
+	height:30;
+	background-color:blue;
+	color:white;
+	font-size:20pt;
+}
+#d1_body{
+	background-color:#cccccc;
+}
+.list li{list-style-type:none}
+.image image:2.png;
